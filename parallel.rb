@@ -25,3 +25,8 @@ cmds.each{|line|
 	end
 }
 
+while count!=0
+	x=Process.wait
+	count-=1
+end
+
