@@ -29,3 +29,8 @@ ruby parallel.py <#process> <コマンドリストファイル> [<sleep_time>]
 ```
 python parallel_gpu.py <コマンドリストファイル>
 ```
+
+# linuxの場合は以下のコマンド相当
+```
+cat <コマンドリストファイル> | xargs -P<#process> -I{} -t bash -c '{}'
+```
