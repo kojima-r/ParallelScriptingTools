@@ -6,6 +6,7 @@ GPU用並列化ツール
 ## インストール
 ```
 pip install git+https://github.com/kojima-r/ParallelScriptingTools.git
+pip install gpustat
 ```
 
 ## 準備
